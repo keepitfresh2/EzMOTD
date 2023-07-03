@@ -1,0 +1,10 @@
+name: EzMOTD
+version: '${project.version}'
+main: doxilegaming.ezmotd.EzMOTD
+api-version: '1.20'
+
+commands:
+  reloadmotd:
+    description: ReloadMOTD updates the current server MOTD in real time.
+    usage: /<command>
+    permission: reloadmotd.admin
